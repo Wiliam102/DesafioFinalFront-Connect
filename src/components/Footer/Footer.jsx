@@ -17,23 +17,24 @@ function Footer (){
             <ul className={styles.redesSociais}>
                 <li>
                     <a href="http://">
-                    <img src={whatssapIcone} alt="logo do whatssap"/>
+                    <img  className ={styles.icone} src={whatssapIcone} alt="logo do whatssap"/>
                     </a>
                 </li>
                  <li>
                     <a href="http://">
-                    <img src={instagramIcone} alt="logo do instagram" />
+                    <img className ={styles.icone} src={instagramIcone} alt="logo do instagram" />
                     </a>
                 </li>
                  <li>
                     <a href="http://">
-                    <img src={linkedinIcone} alt="logo do linkedin" />
+                    <img 
+                    className ={styles.icone}
+                    src={linkedinIcone} alt="logo do linkedin" />
                     </a>
                 </li>
             </ul>
 
             </section>
-            
         </footer>
     )
 }

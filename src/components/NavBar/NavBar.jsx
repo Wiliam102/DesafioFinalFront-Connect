@@ -2,7 +2,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Inicio from "../Inicio/Inicio";
 import Acoes from "../AcoesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
-import Perfil from "../Perfil/Perfil";
+import Perfil from "../Perfil/Perfil"
 import Logo from '../../assets/logo.png';
 import ImagemPerfil from '../../assets/foto.jpg';
 import styles from './NavBar.module.scss'

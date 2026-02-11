@@ -3,9 +3,9 @@ import styles from './Inicio.module.scss'
 function Inicio(){
     return(
         <section className={styles.secaoInicio}>
-            <div>
-                <h1>Projetos Sociais que transformam</h1>
-               <p>Conectamos sua empresa com projetos sociais impactantes. Juntos, criamos mudanças reais na comunidade.</p>
+            <div className={styles.boxInicio}>
+                <h1 className={styles.tituloInicio}>Projetos Sociais que transformam</h1>
+               <p className={styles.paragrafoInicio}>Conectamos sua empresa com projetos sociais impactantes. Juntos, criamos mudanças reais na comunidade.</p>
             </div>
             <img src={BannerInicio} alt="imagem e banner da tela inicial"/>
         </section>

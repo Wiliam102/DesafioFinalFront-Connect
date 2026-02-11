@@ -2,7 +2,7 @@
 .secaoInicio{
     display: flex;
     justify-content: space-between;
-    div{
+    .boxInicio{
         width: 60%;
         height:auto;
         display: flex;
@@ -29,5 +29,31 @@
 }
 
 @media(max-width:500px){
-  
+  .secaoInicio{
+    flex-direction: column;
+    align-items: center;
+    .boxInicio{ 
+        width: 100%;
+      .tituloInicio{
+        width: 80%;
+        font-size: 2.1rem;
+        text-align: center;
+      }
+    .paragrafoInicio{
+         width: 100%;
+         font-size: 0.9rem;
+         font-weight: 400;
+         margin-bottom: 0.5rem;
+         color: $background-primary;
+         text-align: center;
+      }
+    }
+
+    img{
+        border-radius: 50%;
+        width: 50vw;
+    }
+
+  }
+
 }

@@ -46,11 +46,13 @@
 
         
     .textFooter{
-        width: 90%;
-        font-size: 1.1rem;
+        width: 100%;
+        font-size: 0.9rem;
+        font-weight: 300;
     }
 
      .box2{
+        gap:1.5rem;
         .logoFooter{
             width: 3rem;
         }
@@ -61,8 +63,12 @@
    
     .redesSociais{
         margin-top: 0.5rem;
-        width: 40%;
+        width: 60%;
         margin-bottom: 0.5rem;
+    }
+
+    .icone{
+        width: 2rem;
     }
 
 }

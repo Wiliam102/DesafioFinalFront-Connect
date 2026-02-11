@@ -1,0 +1,32 @@
+@use '../../styles/cores.scss' as *;
+.boxBanner{
+    width: 30%;
+
+}
+.banner{
+    width: 55rem;
+    height: 30rem;
+}
+
+.quemSomos{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+
+}
+
+.artigo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    h1{
+        color: $background-primary;
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+}

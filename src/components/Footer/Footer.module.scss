@@ -1,26 +1,30 @@
-
+@use '../../styles/cores.scss' as *;
 .footerContainer{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color:#205691;
-    padding: 0.8rem;
+    background-color:$background-primary;
+    padding: 0.6rem;
     align-items: center;
 
-    div{
+    .box2{
         display: flex;
+        justify-content: space-evenly;
         gap: 1rem;
         align-items: center;
         h2{
-            color: #fff;
-            font-weight: 400;
+            color: white;
+            font-weight: 500;
+        }
+        img{
+            width:6rem;
         }
     }
 
     p{
         width: 50%;
         text-align: center;
-        color: #fff;
+        color: $text-secondary;
         font-size: 0.9rem;
         font-weight: 300;
     }

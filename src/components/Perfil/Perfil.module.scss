@@ -1,3 +1,4 @@
+@use '../../styles/cores.scss' as *;
 .containerPerfil{
     height: 100vh;
     display: flex;
@@ -8,7 +9,7 @@
         width: 20rem;
         height: 15rem;
         border-radius: 100%;
-        border: 3px solid #00AAFF;
+        border: 3px solid $border-primary;
     }
 }
 
@@ -19,7 +20,7 @@
     height: 50%;
     align-items: center;
     gap: 1rem;
-    border: 1px solid #efeeee;
+    border: 1px solid $border-secondary;
     padding: 1rem;
     border-radius: 8px;
 
@@ -29,7 +30,7 @@
     }
 
     h3{
-        color: #278733;
+        color: $text-primary;
         font-weight: 500;
         font-size: 1rem;
 ;
@@ -68,8 +69,8 @@
         margin: 1rem;
         padding: 0.2rem;
         text-align: center;
-        color: #278733;
-        background-color: #D4E7D6;
+        color: $text-primary;
+        background-color: $background-secondary;
 ;
     }
 }

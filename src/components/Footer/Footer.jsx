@@ -7,7 +7,7 @@ function Footer (){
     return(
         <footer>
             <section className={styles.footerContainer}>
-              <div>
+              <div className={styles.box2}>
                 <img src={Logo} alt="logo da connect" />
                 <h2>Connect</h2>
             </div>

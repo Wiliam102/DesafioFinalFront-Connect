@@ -8,11 +8,11 @@ function Footer (){
         <footer>
             <section className={styles.footerContainer}>
               <div className={styles.box2}>
-                <img src={Logo} alt="logo da connect" />
+                <img src={Logo} className={styles.logoFooter} alt="logo da connect" />
                 <h2>Connect</h2>
             </div>
 
-            <p>&copy; 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
+            <p className={styles.textFooter}>&copy; 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
 
             <ul className={styles.redesSociais}>
                 <li>

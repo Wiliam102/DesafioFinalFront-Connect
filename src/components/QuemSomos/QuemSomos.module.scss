@@ -30,3 +30,28 @@
         font-weight: 400;
     }
 }
+
+@media(max-width:500px){
+    .banner{
+        display: none;
+    }
+    .boxBanner{
+        width: 1%;
+    }
+    .artigo{
+        width: 90%;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px red;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        p{
+            width: 90%;
+        }
+
+        h1{
+            padding: 0.5rem;
+            width: 90%;
+        }
+    }
+}

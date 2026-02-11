@@ -50,8 +50,7 @@ function AcoesDaConnect(){
      <>
        <div className={styles.box1}>
         <h1>Ações da Connect</h1>
-        <p>transformando vidas atraves das ações 
-        sociais</p>
+        <p>Junte-se a quem acredita na mudança. Apoie, participe e transforme vidas através de ações sociais que geram impacto real nas comunidades.</p>
        </div>
        
        <section className={styles.secaoDeAcoes}>
